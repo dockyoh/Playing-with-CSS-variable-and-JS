@@ -41,18 +41,20 @@ label {
 }
 
 .image-container {
-  border: 2px solid white;
-  width: 60%;
-  height: 500px;
+  /* border: 2px solid white; */
+  /* width: 60%; */
+  /* height: 500px; */
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--base-color);
+  /* background-color: var(--base-color); */
   margin-top: 15px;
 }
 
 .image-container img {
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
+  padding: var(--spacing);
+  background-color: var(--base-color);
 }
