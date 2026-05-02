@@ -8,9 +8,9 @@
 }
 
 :root {
-  --spacing: 10px;
-  --blur: 10px;
-  --base-color: yellow;
+  --spacing: 0px;
+  --blur: 0px;
+  --base-color: white;
 }
 
 body {
@@ -57,4 +57,5 @@ label {
   height: 50%;
   padding: var(--spacing);
   background-color: var(--base-color);
+  filter: blur(var(--blur));
 }
