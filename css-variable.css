@@ -41,14 +41,10 @@ label {
 }
 
 .image-container {
-  /* border: 2px solid white; */
-  /* width: 60%; */
-  /* height: 500px; */
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: var(--base-color); */
   margin-top: 15px;
 }
 
